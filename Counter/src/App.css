@@ -1,0 +1,29 @@
+*{
+  background-color: antiquewhite;
+}
+
+
+h1{
+  text-align: center;
+  font-family: cursive;
+  font-size: 100px;
+}
+
+#score{
+  color: red;
+}
+#buttons{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#buttons > button{
+  width: 30%;
+  height: 100px;
+  font-size: 30px;
+  background-color: greenyellow;
+}
+
+#buttons > button:hover{
+  background-color: red;
+}
